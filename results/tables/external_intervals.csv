@@ -1,0 +1,5 @@
+Feature_Set,CQR_Calibrated,Empirical_PICP_%,MPIW_INR,CQR_Offset_INR
+Itinerary only,No,70.73,7288.16,0.0
+Itinerary only,Yes,78.91,7710.8,211.32
+All external parameters,No,70.42,6934.67,0.0
+All external parameters,Yes,79.42,7290.37,177.85

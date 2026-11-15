@@ -1,0 +1,7 @@
+Feature_Set,N_Extra_Features,Test_MAE,Test_RMSE,Test_R2,Test_MAPE,Test_sMAPE,MAE_0_3_days,MAPE_budget_carriers,Delta_MAE,CI95_Low,CI95_High,Bootstrap_P_Value
+Itinerary only,0,2701.0,4738.64,0.9556,16.28,16.02,4251.24,23.93,0.0,0.0,0.0,
++ Calendar & holidays,5,2726.94,4742.58,0.9555,16.21,16.0,4191.03,23.3,25.94,-26.56,80.16,0.363
++ Weather (climate normals),10,2665.97,4659.55,0.9571,16.07,15.86,4148.49,23.6,-35.03,-66.69,1.77,0.062
++ Competitor fares,5,2648.18,4661.65,0.957,15.87,15.66,4531.04,23.53,-52.82,-121.57,21.9,0.155
+All external parameters,20,2616.91,4622.77,0.9577,15.85,15.65,4540.8,23.49,-84.09,-155.13,-8.14,0.028
+"All + observed weather (oracle, leaky)",30,2604.55,4600.44,0.9582,15.74,15.56,4459.65,22.87,-96.45,-167.68,-23.14,0.008

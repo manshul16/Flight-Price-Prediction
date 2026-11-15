@@ -1,0 +1,8 @@
+Model,Reference,Test_MAE,Delta_MAE_vs_Reference,CI95_Low,CI95_High,Bootstrap_P_Value,Significant_at_0.05
+stacking_ensemble,lightgbm,2695.2,1.47,-77.2,85.48,0.997,False
+histgradientboosting,lightgbm,2721.31,27.58,-12.69,63.97,0.157,False
+extratrees,lightgbm,2740.28,46.54,-83.47,173.86,0.505,False
+randomforest,lightgbm,2843.5,149.76,-8.58,298.26,0.063,False
+catboost,lightgbm,2952.38,258.64,-1.67,523.58,0.052,False
+ridge,lightgbm,4823.4,2129.67,1738.6,2470.85,0.0005,True
+elasticnet,lightgbm,5014.65,2320.92,1835.07,2770.68,0.0005,True
