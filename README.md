@@ -132,7 +132,7 @@ The pipeline is fully automated and designed to run out of the box with Python 3
 
 ### 1. Clone & Enter Repository
 ```powershell
-git clone https://github.com/Piyush0000/Flight-Price-Prediction.git
+git clone https://github.com/manshul16/Flight-Price-Prediction.git
 cd Flight-Price-Prediction
 ```
 
@@ -425,6 +425,3 @@ All pipeline artifacts were checked and committed to version control:
 - `645ccca`: Fix array slicing in Stacking Ensemble and optimize out-of-fold meta-learner training.
 - `ddcdf95`: Data validation logs, tuning tables, and empirical leakage comparison results.
 - `main`: Full research report, benchmark tables, prediction intervals, and publication figures.
-
-#   F l i g h t - P r i c e - P r e d i c t i o n  
- 
